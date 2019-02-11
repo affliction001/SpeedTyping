@@ -4,8 +4,17 @@
 	box-sizing: border-box;
 }
 
+body {
+	height: 100vh;
+	background: linear-gradient(0deg, #000 0%, rgba(150,150,150,0) 40%),
+	            linear-gradient(180deg, #000 0%, rgba(150,150,150,0) 40%),
+				linear-gradient(90deg, #000 0%, rgba(150,150,150,0) 40%),
+				linear-gradient(270deg, #000 0%, rgba(150,150,150,0) 40%);
+}
+
 .root {
 	position: relative;
+	top: calc(50vh - 250px);
 	width: 800px;
 	height: 500px;
 	margin: 0 auto;
